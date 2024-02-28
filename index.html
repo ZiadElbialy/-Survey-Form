@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/master.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <div class="container">
+            <form action="">
+                <label for="name">Name</label>
+                <input
+                    class="input-text"
+                    type="text"
+                    name="username"
+                    id="name"
+                    placeholder="Enter Your Name Here"
+                />
+                <label for="email">Email</label>
+                <input
+                    class="input-text"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Your Email Here"
+                />
+                <label for="age">Age</label>
+                <input
+                    class="input-text"
+                    type="number"
+                    name="age"
+                    id="age"
+                    placeholder="Enter Your Age Here"
+                />
+                <label for="options">Which option best describes you?</label>
+                <select name="options" id="options" class="input-text">
+                    <option value="Student">Student</option>
+                    <option value="professor">professor</option>
+                    <option value="instructor">instructor</option>
+                </select>
+                <p>Would you recommend Eraasoft to a friend?</p>
+                <div>
+                    <input
+                        type="radio"
+                        name="radio"
+                        id="radio"
+                        class="radio"
+                        value="Yes"
+                    />
+                    <label for="radio" class="radio">Yes</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="radio"
+                        id="radio"
+                        class="radio"
+                        value="No"
+                    />
+                    <label for="radio" class="radio">No</label>
+                </div>
+                <div>
+                    <input
+                        type="radio"
+                        name="radio"
+                        id="radio"
+                        class="radio"
+                        value="Maybe"
+                    />
+                    <label for="radio" class="radio">Maybe</label>
+                </div>
+                <p class="space-after">Languages, Frameworks and tools known</p>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice1"
+                        name="choice1"
+                        value="html"
+                        class="radio"
+                    />
+                    <label for="choice1" class="radio">HTML</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice2"
+                        name="choice2"
+                        value="CSS"
+                        class="radio"
+                    />
+                    <label for="choice2" class="radio">CSS</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice3"
+                        name="choice3"
+                        value="JavaScript"
+                        class="radio"
+                    />
+                    <label for="choice3" class="radio">JavaScript</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice4"
+                        name="choice4"
+                        value="JQuery"
+                        class="radio"
+                    />
+                    <label for="choice4" class="radio">JQuery</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice5"
+                        name="choice5"
+                        value="Sass"
+                        class="radio"
+                    />
+                    <label for="choice5" class="radio">Sass</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice6"
+                        name="choice6"
+                        value="BootStrap"
+                        class="radio"
+                    />
+                    <label for="choice6" class="radio">BootStrap</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice7"
+                        name="choice7"
+                        value="React"
+                        class="radio"
+                    />
+                    <label for="choice7" class="radio">React</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice8"
+                        name="choice8"
+                        value="React-Router"
+                        class="radio"
+                    />
+                    <label for="choice8" class="radio">React Router</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice9"
+                        name="choice9"
+                        value="Redux"
+                        class="radio"
+                    />
+                    <label for="choice9" class="radio">Redux</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice10"
+                        name="choice10"
+                        value="Git"
+                        class="radio"
+                    />
+                    <label for="choice10" class="radio">Git</label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id="choice11"
+                        name="choice11"
+                        value="Figma"
+                        class="radio"
+                    />
+                    <label for="choice11" class="radio">Figma</label>
+                </div>
+                <label for="text" class="space-after space-before"
+                    >Any comments or suggestions</label
+                >
+                <textarea
+                    class="max-width max-height outline-none input-padding"
+                    name="text-area"
+                    id="text"
+                    cols="50"
+                    rows="10"
+                ></textarea>
+                <button class="btn space-before max-width">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
